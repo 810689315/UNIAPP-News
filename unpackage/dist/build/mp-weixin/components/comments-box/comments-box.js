@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/comments-box/comments-box"],{"0359":function(t,n,e){"use strict";e.d(n,"b",(function(){return c})),e.d(n,"c",(function(){return r})),e.d(n,"a",(function(){return o}));var o={commentsBox:function(){return Promise.resolve().then(e.bind(null,"3ccd"))}},c=function(){var t=this,n=t.$createElement,e=(t._self._c,t._f("formatTime")(t.comments.create_time));t.$mp.data=Object.assign({},{$root:{f0:e}})},r=[]},"0a38":function(t,n,e){},"16db":function(t,n,e){"use strict";e.r(n);var o=e("719c"),c=e.n(o);for(var r in o)"default"!==r&&function(t){e.d(n,t,(function(){return o[t]}))}(r);n["default"]=c.a},"3ccd":function(t,n,e){"use strict";e.r(n);var o=e("0359"),c=e("16db");for(var r in c)"default"!==r&&function(t){e.d(n,t,(function(){return c[t]}))}(r);e("f540");var u,i=e("f0c5"),m=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],u);n["default"]=m.exports},"719c":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o=e("7275"),c=function(){Promise.resolve().then(function(){return resolve(e("3ccd"))}.bind(null,e)).catch(e.oe)},r={name:"commentsBox",props:{comments:{type:Object,default:function(){return{}}},reply:{type:Boolean,default:!1}},data:function(){return{}},filters:{formatTime:function(t){return(0,o.parseTime)(t)}},components:{commentsBox:c},methods:{commentsReply:function(t){t.is_reply&&(t.comments.reply_id=t.comments.comment_id,t.comments.comment_id=this.comments.comment_id),this.$emit("reply",t)}}};n.default=r},f540:function(t,n,e){"use strict";var o=e("0a38"),c=e.n(o);c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/comments-box/comments-box-create-component',
+    {
+        'components/comments-box/comments-box-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("3ccd"))
+        })
+    },
+    [['components/comments-box/comments-box-create-component']]
+]);
